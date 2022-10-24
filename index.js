@@ -7,8 +7,8 @@ const client = new Client({
     password: 'mhd123',
 });
 await client.connect();
-console.log('connexion avec succès');
-client
-    .query('SELECT * FROM persona')
-    .then(res => console.log(res.rows))
-    .catch(e => console.error(e.stack));
+// console.log('connexion avec succès');
+// client
+//     .query('SELECT * FROM persona')
+//     .then(res => console.log(res.rows))
+//     .catch(e => console.error(e.stack));
