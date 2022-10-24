@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "exempleCrud",
+            "database": "leads",
+            "username": "heritier",
+            "password": "mhd123"
+        }
+    ]
+}
